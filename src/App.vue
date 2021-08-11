@@ -6,9 +6,8 @@
       <th scope="col">#</th>
       <th scope="col">Nombre</th>
       <th scope="col">Apellido</th>
-      <th scope="col">RUT</th>
+      <th scope="col">RUN</th>
       <th scope="col">Edad</th>
-      <th scope="col">Fecha de Nacimiento</th>
     </tr>
   </thead>
   <tbody>
@@ -17,8 +16,9 @@
       <td>{{ persona.nombre}}</td>
       <td>{{ persona.apellido}}</td>
       <td>{{ persona.rut}}</td>
-      <td>{{ persona.edad}}</td>
       <td>{{ persona.fechaDeNacimiento}}</td>
+      <td>{{ persona.edad}}</td>
+      
       
     </tr>
     <tr>
@@ -35,25 +35,25 @@ export default {
     data: () => ({
       personas: [
         {
-          nombre: "Angela",
-          apellido: "Vidal",
-          rut: "1.234.567-7",
-          edad: 20,
-          fechaDeNacimiento: "01-01-2000", 
+          nombre: "Jose",
+          apellido: "Pérez",
+          rut: "123456-2",
+          edad: 52,
+          fechaDeNacimiento: "12-04-67", 
          },
          {
-          nombre: "Gonzalo",
-          apellido: "Jara",
-          rut: "1.234.567-7",
-          edad: 20,
-          fechaDeNacimiento: "01-01-2000", 
+          nombre: "María",
+          apellido: "Rodríguez",
+          rut: "654321-1",
+          edad: 29,
+          fechaDeNacimiento: "30-11-90", 
          },
          {
-          nombre: "Seba",
-          apellido: "Gómez",
-          rut: "1.234.567-7",
-          edad: 20,
-          fechaDeNacimiento: "01-01-2000", 
+          nombre: "Manuel",
+          apellido: "Patiño",
+          rut: "14223456-6",
+          edad: 60,
+          fechaDeNacimiento: "02-12-59", 
          },
       ],
   })
